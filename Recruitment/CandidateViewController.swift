@@ -12,7 +12,10 @@ class CandidateViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        var currentUser = PFUser.currentUser()
+        if currentUser != nil {
+            println(currentUser["Name"])
+        }
         // Do any additional setup after loading the view.
     }
 

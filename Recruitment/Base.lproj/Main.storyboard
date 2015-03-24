@@ -787,7 +787,7 @@
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="PMe-z4-RX7"/>
                         <barButtonItem title="SUBMIT INFORMATION" id="chg-6J-YyQ">
                             <connections>
-                                <segue destination="wc1-GC-iJH" kind="show" identifier="New" id="yLI-T9-dCU"/>
+                                <segue destination="wc1-GC-iJH" kind="modal" identifier="New" id="yLI-T9-dCU"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="abA-JN-sOJ"/>
@@ -837,7 +837,7 @@
         <image name="red-banner" width="2880" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="hPf-Ug-jDA"/>
         <segue reference="kny-7C-omz"/>
+        <segue reference="yLI-T9-dCU"/>
     </inferredMetricsTieBreakers>
 </document>

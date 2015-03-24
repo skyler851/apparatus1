@@ -27,7 +27,6 @@
 		5696B3861AC21AB500E82061 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5696B3811AC21AB500E82061 /* ParseCrashReporting.framework */; };
 		5696B3871AC21AB500E82061 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5696B3821AC21AB500E82061 /* ParseFacebookUtils.framework */; };
 		5696B3881AC21AB500E82061 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5696B3831AC21AB500E82061 /* ParseUI.framework */; };
-		5696B38C1AC21BF600E82061 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5696B38B1AC21BF600E82061 /* AppDelegate.m */; };
 		56BE0FE01AAD2413008B0848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56BE0FDE1AAD2413008B0848 /* Main.storyboard */; };
 		57CA15C61A9BADE1009EC3C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CA15C51A9BADE1009EC3C7 /* AppDelegate.swift */; };
 		57CA15C81A9BADE1009EC3C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CA15C71A9BADE1009EC3C7 /* ViewController.swift */; };
@@ -71,9 +70,6 @@
 		5696B3811AC21AB500E82061 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
 		5696B3821AC21AB500E82061 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		5696B3831AC21AB500E82061 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
-		5696B38B1AC21BF600E82061 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5696B38D1AC21C9D00E82061 /* Recruitment-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recruitment-Bridging-Header.h"; sourceTree = "<group>"; };
-		5696B38E1AC21D4800E82061 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		56BE0FDF1AAD2413008B0848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57CA15C01A9BADE1009EC3C7 /* Recruitment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recruitment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CA15C41A9BADE1009EC3C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -171,9 +167,6 @@
 			isa = PBXGroup;
 			children = (
 				56BE0FDE1AAD2413008B0848 /* Main.storyboard */,
-				5696B38B1AC21BF600E82061 /* AppDelegate.m */,
-				5696B38E1AC21D4800E82061 /* AppDelegate.h */,
-				5696B38D1AC21C9D00E82061 /* Recruitment-Bridging-Header.h */,
 				5696B3671AC219A000E82061 /* CandidateViewController.swift */,
 				563FD37F1AAA44A3004B6EB7 /* Fonts */,
 				57CA15E91A9E62B4009EC3C7 /* AdminMenu.swift */,
@@ -323,7 +316,6 @@
 				57CA15EC1A9E8508009EC3C7 /* Score.swift in Sources */,
 				5696B3681AC219A000E82061 /* CandidateViewController.swift in Sources */,
 				57CA15EA1A9E62B4009EC3C7 /* AdminMenu.swift in Sources */,
-				5696B38C1AC21BF600E82061 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,7 +448,7 @@
 				INFOPLIST_FILE = Recruitment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/stephaniekyler/Desktop/apparatus1/Recruitment/Recruitment-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/stephaniekyler/Desktop/apparatus1/RecruitmentTests/Recruitment-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -473,7 +465,7 @@
 				INFOPLIST_FILE = Recruitment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/stephaniekyler/Desktop/apparatus1/Recruitment/Recruitment-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/stephaniekyler/Desktop/apparatus1/RecruitmentTests/Recruitment-Bridging-Header.h";
 			};
 			name = Release;
 		};
