@@ -48,16 +48,16 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Apparatus-White1color" translatesAutoresizingMaskIntoConstraints="NO" id="wXZ-rK-vFw">
                                 <rect key="frame" x="168" y="241" width="432" height="151"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="4 digit password" borderStyle="roundedRect" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="wNr-Zx-e2P">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="4 digit password" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="wNr-Zx-e2P">
                                 <rect key="frame" x="195" y="413" width="383" height="30"/>
                                 <rect key="contentStretch" x="0.0" y="1.3877787807814457e-17" width="1" height="1"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xSp-Mn-rUP">
                                 <rect key="frame" x="195" y="476" width="383" height="33"/>
-                                <color key="backgroundColor" red="0.13944811034248475" green="0.98431372549999996" blue="0.12615092558014387" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.98431372549999996" green="0.5450980392" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="18"/>
                                 <state key="normal" title="SUBMIT">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -403,7 +403,7 @@
         <!--Person Enter Information-->
         <scene sceneID="ue9-1U-NvC">
             <objects>
-                <viewController title="Person Enter Information" id="wc1-GC-iJH" sceneMemberID="viewController">
+                <viewController title="Person Enter Information" id="wc1-GC-iJH" customClass="CandidateViewController" customModule="Recruitment" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Gkj-1s-gdN"/>
                         <viewControllerLayoutGuide type="bottom" id="Bai-Qd-ieA"/>
