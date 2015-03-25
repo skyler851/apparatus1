@@ -207,7 +207,7 @@
         <!--Skills-->
         <scene sceneID="SNR-Zs-kNX">
             <objects>
-                <viewController title="Skills" id="DGa-VG-AdE" sceneMemberID="viewController">
+                <viewController title="Skills" id="DGa-VG-AdE" customClass="NewCandidateController" customModule="Recruitment" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wVN-rM-Mns"/>
                         <viewControllerLayoutGuide type="bottom" id="dyz-ao-Fsb"/>
@@ -332,6 +332,9 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="menuButton" destination="cYY-8A-2MR" id="BlP-b5-Zr7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lPA-up-xcI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -368,6 +371,64 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="Candidates" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Y6d-mq-zgV">
                                 <rect key="frame" x="0.0" y="113" width="768" height="911"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="b5e-Af-tko">
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="b5e-Af-tko" id="6Rb-XT-QOM">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="rKc-gR-zYP">
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rKc-gR-zYP" id="xfW-7T-3Y0">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="ILx-rs-UKL">
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ILx-rs-UKL" id="Sv7-Kl-86N">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="k6Y-Fv-ycC">
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="k6Y-Fv-ycC" id="vFb-jj-AMg">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="7am-rr-tTN">
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7am-rr-tTN" id="caX-29-6OX">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="JVv-hb-hT8">
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JVv-hb-hT8" id="ger-DP-tgH">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="vvk-ev-50d">
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vvk-ev-50d" id="lBq-tD-2Ef">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="aEP-J8-GNe">
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aEP-J8-GNe" id="bUe-SW-GPh">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -652,7 +713,7 @@
         <!--Score-->
         <scene sceneID="qkJ-9t-9SI">
             <objects>
-                <viewController title="Score" id="yHA-8N-HMh" sceneMemberID="viewController">
+                <viewController title="Score" id="yHA-8N-HMh" customClass="NewCandidateController" customModule="Recruitment" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="U6h-qP-23T"/>
                         <viewControllerLayoutGuide type="bottom" id="Fko-Xf-tqu"/>
@@ -938,6 +999,9 @@
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="menuButton" destination="Tb5-Xn-aq9" id="6Pa-Kh-fa9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EtC-kI-8DQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -972,7 +1036,7 @@
         <image name="red-banner" width="2880" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="yLI-T9-dCU"/>
         <segue reference="wis-wa-JDH"/>
-        <segue reference="2Kj-gv-NSq"/>
     </inferredMetricsTieBreakers>
 </document>
