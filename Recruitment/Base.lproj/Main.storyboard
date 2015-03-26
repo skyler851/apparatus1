@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZJW-bc-Lb1">
-=======
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Np9-8E-vUv">
->>>>>>> deb8ced7fd1a568e362dbec038ccd36897d62e88
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
@@ -557,11 +553,7 @@
         <!--Person Enter Information-->
         <scene sceneID="ue9-1U-NvC">
             <objects>
-<<<<<<< HEAD
                 <viewController title="Person Enter Information" id="wc1-GC-iJH" customClass="NewCandidateController" customModule="Recruitment" customModuleProvider="target" sceneMemberID="viewController">
-=======
-                <viewController title="Person Enter Information" id="wc1-GC-iJH" customClass="CandidateViewController" customModule="Recruitment" customModuleProvider="target" sceneMemberID="viewController">
->>>>>>> deb8ced7fd1a568e362dbec038ccd36897d62e88
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Gkj-1s-gdN"/>
                         <viewControllerLayoutGuide type="bottom" id="Bai-Qd-ieA"/>
@@ -995,12 +987,7 @@
         <image name="red-banner" width="2880" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
-<<<<<<< HEAD
         <segue reference="yLI-T9-dCU"/>
         <segue reference="wis-wa-JDH"/>
-=======
-        <segue reference="kny-7C-omz"/>
-        <segue reference="yLI-T9-dCU"/>
->>>>>>> deb8ced7fd1a568e362dbec038ccd36897d62e88
     </inferredMetricsTieBreakers>
 </document>
