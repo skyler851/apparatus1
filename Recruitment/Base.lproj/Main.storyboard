@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZJW-bc-Lb1">
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Np9-8E-vUv">
+>>>>>>> deb8ced7fd1a568e362dbec038ccd36897d62e88
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
@@ -168,12 +172,12 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Apparatus-White1color" translatesAutoresizingMaskIntoConstraints="NO" id="wXZ-rK-vFw">
                                 <rect key="frame" x="168" y="241" width="432" height="151"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="4 digit password" borderStyle="roundedRect" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="wNr-Zx-e2P">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="4 digit password" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="wNr-Zx-e2P">
                                 <rect key="frame" x="195" y="413" width="383" height="30"/>
                                 <rect key="contentStretch" x="0.0" y="1.3877787807814457e-17" width="1" height="1"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xSp-Mn-rUP">
                                 <rect key="frame" x="195" y="476" width="383" height="33"/>
@@ -553,7 +557,11 @@
         <!--Person Enter Information-->
         <scene sceneID="ue9-1U-NvC">
             <objects>
+<<<<<<< HEAD
                 <viewController title="Person Enter Information" id="wc1-GC-iJH" customClass="NewCandidateController" customModule="Recruitment" customModuleProvider="target" sceneMemberID="viewController">
+=======
+                <viewController title="Person Enter Information" id="wc1-GC-iJH" customClass="CandidateViewController" customModule="Recruitment" customModuleProvider="target" sceneMemberID="viewController">
+>>>>>>> deb8ced7fd1a568e362dbec038ccd36897d62e88
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Gkj-1s-gdN"/>
                         <viewControllerLayoutGuide type="bottom" id="Bai-Qd-ieA"/>
@@ -936,7 +944,7 @@
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="PMe-z4-RX7"/>
                         <barButtonItem title="SUBMIT INFORMATION" id="chg-6J-YyQ">
                             <connections>
-                                <segue destination="wc1-GC-iJH" kind="show" identifier="New" id="yLI-T9-dCU"/>
+                                <segue destination="wc1-GC-iJH" kind="modal" identifier="New" id="yLI-T9-dCU"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="abA-JN-sOJ"/>
@@ -987,7 +995,12 @@
         <image name="red-banner" width="2880" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
+<<<<<<< HEAD
         <segue reference="yLI-T9-dCU"/>
         <segue reference="wis-wa-JDH"/>
+=======
+        <segue reference="kny-7C-omz"/>
+        <segue reference="yLI-T9-dCU"/>
+>>>>>>> deb8ced7fd1a568e362dbec038ccd36897d62e88
     </inferredMetricsTieBreakers>
 </document>
